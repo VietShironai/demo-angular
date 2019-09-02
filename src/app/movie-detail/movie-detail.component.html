@@ -1,0 +1,14 @@
+<div *ngIf="movie" class="detail">
+  <h3> Selected {{movie.name}}</h3>
+  <table>
+    <tr>
+      <td> Name:
+        <input [(ngModel)]="movie.name"></td>
+    </tr>
+    <tr>
+      <td> Realease:
+        <input [(ngModel)]="movie.release"></td>
+    </tr>
+  </table>
+
+</div>

@@ -1,0 +1,12 @@
+<h2> My favorites movies:</h2>
+
+
+<div class="parent">
+  <ol class="movies">
+    <li class="movieListitem" *ngFor="let eachMovie of movies"
+        (click)="onSelected(eachMovie)" [class.selected]="eachMovie ===selectedMovie" >
+      {{eachMovie.name}}- {{eachMovie.release}}
+    </li></ol>
+  <app-movie-detail [movie]="selectedMovie"></app-movie-detail>
+</div>
+

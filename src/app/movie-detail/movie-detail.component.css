@@ -1,0 +1,8 @@
+.detail{
+  background: aqua;
+  color: fuchsia;
+  padding: 0.5em;margin: 0.2em;
+  max-width: 16em;
+  text-align: left;
+  font-size: 0.87em;
+}
